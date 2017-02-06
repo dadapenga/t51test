@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="a" allow-return-values="true">
+    <parameter name="url" value="https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=APPID&amp;secret=APPSECRET"/>
+    <parameter name="appid" value="wx0bcc846c8e2740c7"/>
+    <parameter name="secret" value="affff3c6fa6653d879cd9c4a806bd723"/>
+    <test name="aa">
+        <classes>
+            <class name="Test.HttpRequesterTest"/>
+        </classes>
+    </test>
+</suite>
